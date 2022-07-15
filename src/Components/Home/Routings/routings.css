@@ -1,0 +1,155 @@
+.routers {
+  min-height: 444px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.card {
+  width: 226px;
+  height: 404px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.card1 {
+  background-image: url("./img/weekend.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.card2 {
+  background-image: url("./img/sale.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.card3 {
+  background-image: url("./img/events.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.card4 {
+  background-image: url("./img/events.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.card5 {
+  background-image: url("./img/tours.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.card-opacity {
+  width: 100%;
+  height: 444px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+}
+
+.card-opacity svg {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 260.93px;
+  left: 20.77px;
+}
+
+.card-opacity a {
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  top: 80%;
+  left: 10%;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.card-opacity span {
+  position: absolute;
+  width: 105px;
+  height: 4px;
+  top: 93%;
+  left: 10%;
+  background: #ffffff;
+  /* background-color: aquamarine; */
+}
+
+.card-opacity svg {
+  width: 40px;
+  height: 63px;
+}
+
+.soon {
+  width: 122px;
+  /* height: 40px; */
+  background: #ff4b55;
+  position: absolute;
+  top: 63.07px;
+  right: 118.23px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  padding: 3% 0 0 0;
+}
+.rout-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(2, 648px);
+  row-gap: 2%;
+}
+.routs {
+  max-width: 648px;
+  min-height: 317px;
+  margin-left: 3%;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 42px;
+}
+.pic {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  border-top-right-radius: 42px;
+  border-top-left-radius: 42px;
+}
+
+.more {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  padding: 3% 0 0 6%;
+  gap: 35%;
+}
+
+.more > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  color: #000000;
+}
+
+.more1 {
+  color: #00937d;
+  text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+.trips {
+    width: 100%;
+    min-height: 204.56px;
+    background-color: #00937D;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trips p {
+    width: 100%;
+    position: absolute;
+    left: 11.53%;
+    right: 67.56%;
+    top: 14.57%;
+    bottom: 85.03%;
+  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+  
+    color: #FFFFFF;
+  }
+  
+  .trip-list {
+    padding: 5% 8% 2% 8%;
+  }
+  
+  .slide {
+    height: 100px;
+  }
+  .slide img {
+    padding: 0 0 0 20%;
+    width: 95%;
+    height: 100%;
+  }
+  .zeg img{
+    padding: 0 0 0 10%;
+    width: 100%;
+  }

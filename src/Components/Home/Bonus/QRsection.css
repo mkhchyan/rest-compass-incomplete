@@ -1,0 +1,138 @@
+.back {
+  width: 100%;
+  min-height: 447px;
+  background: #fafbfd;
+  position: relative;
+}
+
+.qr-more {
+  position: absolute;
+  top: 15%;
+  left: 12%;
+}
+
+.qr {
+  min-height: 344px;
+  background: #54c3b3;
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  grid-template-columns: 75% 25%;
+}
+
+.qr h3 {
+  max-width: 564.78px;
+  min-height: 122px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.qr button {
+  width: 246.87px;
+  height: 63.6px;
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+}
+.qr button:focus {
+  border: none;
+  outline: none;
+}
+
+.qr button a {
+  font-weight: 400;
+  font-size: 19px;
+  /* line-height: 110%; */
+
+  letter-spacing: 0.01em;
+
+  color: #02917d;
+  text-decoration: none;
+}
+
+.qr img {
+  max-width: 40%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+
+/* .qr-img {
+  background-image: url('./image.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.trip-info {
+  max-width: 900px;
+  min-height: 532.5px;
+  border: 1px solid #eee8e8;
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.06);
+  border-radius: 30px;
+  padding: 0 8%;
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.trip-content {
+  text-align: center;
+}
+.trip-content h1 {
+  margin: 0 0 6% 0;
+}
+.reg-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+  gap: 3%;
+}
+.reg-partner {
+  max-width: 227px;
+  min-height: 75px;
+  background-color: #02917d;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  padding: 3%;
+  word-spacing: 2%;
+}
+.reg-user {
+  max-width: 227px;
+  min-height: 75px;
+  border: 1px solid #02917d;
+  border-radius: 10px;
+  color: #02917d;
+  padding: 3%;
+  background-color: #fff;
+  word-spacing: 2%;
+}
+.reg-partner:hover,
+.reg-user:hover {
+  background-color: #54c3b3;
+}
+#p {
+  color: #6d6d6d;
+  margin-top: 4%;
+}
+#p a {
+  color: #6d6d6d;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .reg-btn {
+    flex-direction: column;
+  }
+}

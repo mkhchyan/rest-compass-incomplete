@@ -1,0 +1,87 @@
+.nav-buttons {
+  display: flex;
+  margin-top: 6%;
+}
+.left_img > img {
+  margin-top: 18%;
+}
+form {
+  width: 100%;
+}
+form > .signupform-row {
+  display: flex;
+  flex-direction: column;
+  margin: 0.75em 0;
+  position: relative;
+}
+form > .signupform-row > input,
+form > .signupform-row > button,
+form > .flex > .flex-col > input {
+  border-radius: 0.5em;
+  padding: 1em 0.5em;
+  width: 100%;
+  font-family: inherit;
+  -webkit-transition: 100ms ease all;
+  transition: 100ms ease all;
+}
+form > .signupform-row > input[type="text"],
+form > .signupform-row > input[type="password"],
+form > .signupform-row > select,
+form > .flex > .flex-col > input {
+  border: 0.075em solid #ddd;
+}
+form > .signupform-row > select {
+  padding: 1em 0.5em;
+}
+form > .signupform-row > input:required,
+form > .flex > .flex-col > input:required {
+  box-shadow: none;
+}
+form > .signupform-row > input:focus,
+form > .flex > .flex-col > input:focus {
+  border-color: #00937d;
+  outline: none;
+}
+form > .signupform-row > select:focus {
+  outline: none;
+}
+form > .signupform-row > input:focus:invalid,
+form > .flex > .flex-col > input:focus:invalid {
+  top: 50%;
+}
+form > .signupform-row > input:focus:valid,
+form > .flex > .flex-col > input:focus:valid {
+  top: 0;
+}
+form > .flex {
+  display: flex;
+  flex-direction: row;
+}
+form > .flex {
+  width: 100%;
+  gap: 2%;
+}
+form > .flex > .flex-col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+form > .flex > .flex-col > input {
+  width: 100%;
+}
+form > .btn {
+  width: 75%;
+  background-color: #2d3748;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0.5em;
+  padding: 1em 0.5em;
+}
+#agree {
+  color: #00937d;
+  text-decoration: underline;
+}
+a:hover {
+  color: #00937d;
+}
